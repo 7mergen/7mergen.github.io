@@ -1,0 +1,63 @@
+@import './css-reset-jc.css';
+@import url('https://fonts.cdnfonts.com/css/space-grotesk');
+
+:root {
+    font-family: 'Space Grotesk', sans-serif;
+    --primary-color: #B9FF66;
+    --secondary-color: #191A23;
+    --accent-color: #F3F3F3;
+    --white: #FFF;
+    --gray: #F3F3F3;
+}
+
+html {
+    width: 100dvw;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100dvh;
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+p::selection {
+    background-color: var(--primary-color);
+}
+
+button {
+    cursor: pointer;
+}
+
+#app {
+    max-width: 1366px;
+    width: 100%;
+}
