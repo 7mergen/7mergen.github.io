@@ -1,4 +1,3 @@
-import Test from '@/sandbox/Test.vue';
 import HomeView from '@/views/HomeView.vue';
 import { createRouter, createWebHistory } from 'vue-router';
 
@@ -15,12 +14,6 @@ const router = createRouter({
       path: '/home',
       redirect: { name: 'home' }
     },
-    // VISUALISATIONS OF COMPONENTS
-    {
-      path: '/test',
-      name: 'test',
-      component: Test
-    }
   ],
 });
 
