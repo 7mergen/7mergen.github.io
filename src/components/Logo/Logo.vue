@@ -2,7 +2,7 @@
     <div class="component logo">
         <picture id="logo-container">
             <!-- <svg v-if="dark" id="logo" width="36" height="36" viewBox="0 0 36 36" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="https://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_1902_83)">
                     <path
                         d="M17.9986 5.53472L35.5997 0.349121L30.464 18.0001L35.5997 35.6012L17.9986 30.4655L0.347656 35.6012L5.53325 18.0001L0.347656 0.349121L17.9986 5.53472Z"
@@ -14,7 +14,7 @@
                     </clipPath>
                 </defs>
             </svg>
-            <svg v-else class="white" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg v-else class="white" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="https://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_403_258)">
                     <path
                         d="M17.9986 5.53472L35.5997 0.349121L30.464 18.0001L35.5997 35.6012L17.9986 30.4655L0.347656 35.6012L5.53325 18.0001L0.347656 0.349121L17.9986 5.53472Z"
@@ -26,7 +26,7 @@
                     </clipPath>
                 </defs>
             </svg> -->
-            <svg width="220" height="56" viewBox="0 0 220 56" fill="none" xmlns="http://www.w3.org/2000/svg"
+            <svg width="220" height="56" viewBox="0 0 220 56" fill="none" xmlns="https://www.w3.org/2000/svg"
                 v-if="dark">
                 <g clip-path="url(#clip0_330_1193)">
                     <g clip-path="url(#clip1_330_1193)">
@@ -71,7 +71,7 @@
                     </clipPath>
                 </defs>
             </svg>
-            <svg width="180" height="30" viewBox="0 0 180 30" fill="none" xmlns="http://www.w3.org/2000/svg" v-else>
+            <svg width="180" height="30" viewBox="0 0 180 30" fill="none" xmlns="https://www.w3.org/2000/svg" v-else>
                 <g clip-path="url(#clip0_341_656)">
                     <path
                         d="M14.7573 4.95854L29.1886 0.78125L24.9778 15.0001L29.1886 29.1788L14.7573 25.0416L0.285156 29.1788L4.53687 15.0001L0.285156 0.78125L14.7573 4.95854Z"

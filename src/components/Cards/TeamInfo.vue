@@ -2,7 +2,7 @@
     <InfoCardTemplate :type="4" class="--_component-template">
         <div class="component team-info-card">
             <a id="logo-icon" href="#">
-                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="https://www.w3.org/2000/svg">
                     <path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
                     <path
                         d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
